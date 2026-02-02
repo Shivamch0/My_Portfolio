@@ -222,3 +222,55 @@ nav{
     margin-top: 5px;
     font-size: 1.5rem;
 }
+
+/* Skills Section */
+
+.skills-section{
+    padding-inline: 120px;
+    height: 700px;
+    margin-top: 30px;
+}
+
+.skills-heading h2{
+    font-size: 40px;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.skills-heading p{
+    font-size: 16px;
+    color: #CBD5E1;
+}
+
+.skills-card-container{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px
+}
+
+.skills-card{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid red;
+    padding-inline: 35px;
+    width: 45%;
+}
+
+.card-top{
+    display: flex;
+    justify-content: center;
+    color: white;
+    gap: 20px;
+    padding-block: 5px;
+    font-size: 20px;    
+}
+
+.card-top i{
+    color: cyan;
+}
+
+.tools i{
+    color: yellow;
+}
