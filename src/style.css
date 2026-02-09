@@ -262,7 +262,7 @@ nav{
 .skills-card:hover{
     cursor:pointer;
     transform: translateY(-8px);
-    box-shadow: 0 10px 30px rgba(43, 40, 92, 0.5);
+    box-shadow: 0 10px 30px rgba(14, 9, 101, 0.5);
 }
 
 .card-top{
