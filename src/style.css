@@ -19,6 +19,12 @@ section{
     scroll-margin-top: 90px;
 }
 
+h2{
+    font-size: 40px;
+    font-weight: 600;
+    color: #ffffff;
+}
+
 p{
     font-size: 16px;
     color: #CBD5E1;
@@ -192,12 +198,6 @@ nav{
     margin-bottom: 50px;
 }
 
-.heading h1{
-    color: #ffffff;
-    font-size: 40px;
-    font-weight: 600;
-}
-
 .about-me{
     display: flex;
     justify-content: space-between;
@@ -278,13 +278,6 @@ nav{
     margin-top: 70px;
 }
 
-.skills-heading h2{
-    font-size: 40px;
-    font-weight: 600;
-    color: #ffffff;
-    margin-top: 30px;
-}
-
 .skills-card-container{
     margin-top: 30px;
     display: flex;
@@ -362,12 +355,6 @@ nav{
     margin-top: 70px;
 }
 
-.service-heading h2{
-    font-size: 40px;
-    font-weight: 600;
-    color: #ffffff;
-}
-
 .service-section i{
     font-size: 2rem;
     color:  #38BDF8;
@@ -438,12 +425,66 @@ nav{
     margin-top: 70px;
 }
 
+.projects-heading{
+    text-align: center;
+}
 
+.project-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
 
+.project-cards{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    border-radius: 25px;
+    box-shadow: 0 20px 50px rgba(0,0,0,0.7);
+    transition: all 0.3s ease;
+    background: #020617;
+    border: 1px solid rgba(255,255,255,0.03);
+    padding: 20px 40px;
+    margin-top: 30px;
+}
 
+.project-cards:hover{
+    cursor:pointer;
+    transform: translateY(-10px);
+    box-shadow: 0 20px 60px rgba(56,189,248,0.2);
+}
 
+.project-cards i{
+    font-size: 2.8rem;
+    color: rgba(56, 189, 248);
+    
+}
 
+.project-cards h3{
+    font-size: 1.7rem;
+    color: #ffffff;
+}
 
+.project-cards img{
+    margin-top: 10px;
+    height: 150px;
+    width: 100%;
+}
+
+.project-cards button{
+    background: #38BDF8;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 25px;
+    margin-top: 10px;
+}
+
+.project-cards button:hover{
+    cursor: pointer;
+    background:transparent;
+}
 
 /* < --------------- Contact -------------> */
 
