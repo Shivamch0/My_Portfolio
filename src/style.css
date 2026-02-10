@@ -428,3 +428,27 @@ nav{
     font-size: 1.7rem;
     color: #ffffff;
 }
+
+
+/* < --------------- Projects -------------> */
+
+.project-section{
+    padding-inline: 120px;
+    height: 700px;
+    margin-top: 70px;
+}
+
+
+
+
+
+
+
+
+/* < --------------- Contact -------------> */
+
+.contact-section{
+    padding-inline: 120px;
+    height: 700px;
+    margin-top: 70px;
+}
