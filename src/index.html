@@ -1,10 +1,16 @@
 <!doctype html>
 <html lang="en">
-  <head>
+  <>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
     <link rel="stylesheet" href="style.css" />
+
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=send" />
+
+    <!-- Swiper js -->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css">
     <script
       defer
       src="https://kit.fontawesome.com/4a37f29405.js"
@@ -176,26 +182,37 @@
             </ul>
           </div>
         </div>
-        <div class="skills-animation">
-          <img src="./images/html-removebg-preview (1).png" alt="html" />
-          <img src="./images/css-removebg-preview.png" alt="Css" />
-          <img
-            src="./images/tailwindcss-removebg-preview.png"
-            alt="TailwindCSS"
-          />
-          <img
-            src="./images/javascript-removebg-preview.png"
-            alt="Javascript"
-          />
-          <img src="./images/react-removebg-preview.png" alt="React" />
-          <img src="./images/node-removebg-preview.png" alt="NodeJs" />
-          <img src="./images/express-removebg-preview.png" alt="Express" />
-          <img src="./images/mongodb-removebg-preview.png" alt="MongoDb" />
-          <img src="./images/git-removebg-preview.png" alt="Git" />
-          <img src="./images/github-removebg-preview.png" alt="Github" />
-          <img src="./images/postman-removebg-preview.png" alt="Postman" />
-          <img src="./images/vscode-removebg-preview.png" alt="VsCode" />
-          <img src="./images/java-removebg-preview.png" alt="Java" />
+        <div class="skills-animation-container">
+          <div class="skills-animation">
+            <img src="./images/html-removebg-preview (1).png" alt="html" />
+            <img src="./images/css-removebg-preview.png" alt="Css" />
+            <img src="./images/tailwindcss-removebg-preview.png" alt="TailwindCSS" />
+            <img src="./images/javascript-removebg-preview.png" alt="Javascript" />
+            <img src="./images/react-removebg-preview.png" alt="React" />
+            <img src="./images/node-removebg-preview.png" alt="NodeJs" />
+            <img src="./images/express-removebg-preview.png" alt="Express" />
+            <img src="./images/mongodb-removebg-preview.png" alt="MongoDb" />
+            <img src="./images/git-removebg-preview.png" alt="Git" />
+            <img src="./images/github-removebg-preview.png" alt="Github" />
+            <img src="./images/postman-removebg-preview.png" alt="Postman" />
+            <img src="./images/vscode-removebg-preview.png" alt="VsCode" />
+            <img src="./images/java-removebg-preview.png" alt="Java" />
+          </div>
+          <div aria-hidden class="skills-animation">
+            <img src="./images/html-removebg-preview (1).png" alt="html" />
+            <img src="./images/css-removebg-preview.png" alt="Css" />
+            <img src="./images/tailwind-removebg-preview.png" alt="TailwindCSS" />
+            <img src="./images/javascript-removebg-preview.png" alt="Javascript" />
+            <img src="./images/react-removebg-preview.png" alt="React" />
+            <img src="./images/node-removebg-preview.png" alt="NodeJs" />
+            <img src="./images/express-removebg-preview.png" alt="Express" />
+            <img src="./images/mongodb-removebg-preview.png" alt="MongoDb" />
+            <img src="./images/git-removebg-preview.png" alt="Git" />
+            <img src="./images/github-removebg-preview.png" alt="Github" />
+            <img src="./images/postman-removebg-preview.png" alt="Postman" />
+            <img src="./images/vscode-removebg-preview.png" alt="VsCode" />
+            <img src="./images/java-removebg-preview.png" alt="Java" />
+          </div>
         </div>
       </section>
 
@@ -351,7 +368,7 @@
                 placeholder="Description"
               ></textarea>
               <button type="submit">
-                Send Message<i class="fa-solid fa-circle-right"></i>
+                Send Message <span class="material-symbols-outlined">send</span></i>
               </button>
             </form>
           </div>
@@ -362,5 +379,10 @@
     <footer>
       <p>© Shivam. All rights reserved.</p>
     </footer>
+
+
+
+    <!-- Swiper js Script -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
   </body>
 </html>

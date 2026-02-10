@@ -326,14 +326,26 @@ nav{
     margin-right: 10px;
 }
 
-.skills-animation{
-    margin-top: 60px;
+.skills-animation-container{
+    margin-top: 100px;
     display: flex;
-    overflow: hidden;
+    overflow-x: auto;
+}
+
+.skills-animation-container::-webkit-scrollbar{
+    display: none;
+}
+
+.skills-animation{
+    display: flex;
+    gap: 1em;
+    animation: slide 10s infinite ease;
+    padding-right: 1em;
 }
 
 .skills-animation img{
-    height: 150px;
+    flex: 0 0 5em;
+    height: 120px;
     width: 170px;
 }
 
@@ -532,6 +544,7 @@ nav{
     background: #38BDF8;
     color: white;
     font-size: 1rem;
+    display: flex;
 }
 
 .contact-form button:hover{
@@ -539,7 +552,7 @@ nav{
     background: transparent;
 }
 
-.contact-form button i{
+.contact-form button span{
     font-size: 1.3rem;
     color: white;
     margin-left: 5px;
@@ -552,4 +565,16 @@ footer {
     background-color: #020617;
     padding: 10px;
     text-align: center;
+}
+
+
+
+/* animations */
+@keyframes slide{
+    from{
+        transform: translate(0);
+    }
+    to{
+        transform: translate(-100%);
+    }
 }
