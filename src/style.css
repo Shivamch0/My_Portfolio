@@ -53,6 +53,7 @@ nav{
 .logo img{
     width: 70px;
     border-radius: 50%;
+    margin-top: 8px;
 }
 
 .links ul {
@@ -174,18 +175,6 @@ nav{
     width: 500px;
     border-radius: 50%;
 }
-
-.right-image img,
-.about-me-image img{
-    transition: 0.4s ease;
-}
-
-.right-image img:hover,
-.about-me-image img:hover{
-    cursor: pointer;
-    transform: scale(1.05);
-}
-
 
 /* < --------------- About -------------> */
 .about-section{
@@ -554,4 +543,13 @@ nav{
     font-size: 1.3rem;
     color: white;
     margin-left: 5px;
+}
+
+/* < --------------- Footer -------------> */
+
+footer {
+    width: 100%;
+    background-color: #020617;
+    padding: 10px;
+    text-align: center;
 }
